@@ -50,6 +50,10 @@ nav ul{
     /* width: 100px; */
 }
 
+.header-container{
+    border-bottom: 1px solid var(--blue-grey);
+}
+
 .img-container{
     display: flex;
     align-items: center;
@@ -87,11 +91,11 @@ nav ul{
     width: 60%;
 }
 
-.button-container{
+.button-line{
     background-color: var(--light-blue);
     display: inline-block;
     height: 1px;
-    /* width: 200px; */
+    width: 180px;
 }
 
 .button{
